@@ -1,0 +1,10 @@
+<v-vertical-layout size-full>
+	<v-horizontal-layout size-full :expand>
+		<v-panel caption="Control panel" height-full width-auto>
+			<v-vertical-layout _id="menuContent" width-auto margin/>
+		</v-panel>
+		<v-panel _id="mainPanel" caption="Main panel" size-full :expand/>
+	</v-horizontal-layout>
+	
+	<v-button _id="logout">Logout</v-button>
+</v-vertical-layout>
